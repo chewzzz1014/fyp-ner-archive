@@ -5,6 +5,7 @@ Archive NER trained models, datasets used and testing data for my Final Year Pro
 Add completed full thesis and poster
 
 ## Spacy NER Performance
+Trained Model: https://drive.google.com/drive/folders/1c8PlRGcUW96eEthZizOoK1jhYA3GjhFV?usp=sharing
 ```
 ================================== Results ==================================
 
@@ -30,6 +31,7 @@ LOC         81.17   80.98   81.07
 STUDY PER   84.96   81.70   83.30
 ```
 ## Flair NER Performance
+Trained Model: https://drive.google.com/drive/folders/1CvpFy6hUTDJF6KK7XdrsYkMiKqnr2q2W?usp=sharing
 ```
 
 Results:
