@@ -1,5 +1,32 @@
-## Overview
-Archive NER trained models, datasets used and testing data for my Final Year Project (FYP) with title `AI-Powered Job Application Management for Applicant`
+# Overview
+Stored the resume dataset annotation and NER trained models for my Bachelor Degree's Final Year Project with title **AI-Powered Job Application Management for Applicant**. There are 3 main parts in the project
+1. Named Entity Recognition (NER)
+   - Involved in complete machine-learning lifecycle: dataset annotation, model training, model evaluation
+   - Trained 2 NER models using spaCy and Flair library, with manually-annotated resume dataset which can recognise 11 types of entities in resume and job description.
+2. Job-Resume Matching Scoring
+   - Calculate the matching score between a resume contents and job description in range of 0 (not relevant) to 1 inclusively (very relevant).
+   - Perform cosine similarity calculation between resume skills and job description skills which are extracted using NER trained models.
+3. ResuMatch, Job Application Management System
+   - Develop job application management system consists of Job Management, Resume Management, Job-Resume Matching and Dashboard.
+
+## Related Repositories
+1. [NER model development and backend code](https://github.com/chewzzz1014/fyp)
+2. [Frontend code](https://github.com/chewzzz1014/fyp-frontend)
+
+## NER Entities
+| Category            | Entity                      | Label Name  | Example                     |
+|---------------------|-----------------------------|-------------|-----------------------------|
+| **Personal Information** | Name                        | NAME        | John Doe                    |
+|                     | Location                    | LOC         | California                  |
+|                     | Phone Number                | PHONE       | 0192394945995               |
+|                     | Email Address               | EMAIL       | johndoe@test.com            |
+| **Education**       | University or School Name   | UNI         | University of California    |
+|                     | Academic Qualification Name | DEG         | Bachelor of Computer Science|
+|                     | Study Period                | STUDY PER   | Oct 2021-Jul 2024           |
+| **Working Experience** | Job Title                   | JOB         | Java Developer              |
+|                     | Company or Organisation Name| COMPANY     | Abc Company                 |
+|                     | Working Period              | WORK PER    | Aug 2024-Current            |
+| **Skill**           | Skill                       | SKILL       | Java                        |
 
 ## TODO
 Add completed full thesis and poster
